@@ -1,0 +1,59 @@
+@keyframes bar-links{
+	from {color: white;}
+	to {color: gray;}
+}
+
+.bdy{
+	background-image: url("res/space-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.right-bar{
+	float: right;
+	margin-right: 5%;
+	position: relative;
+
+}
+
+.left-bar{
+	/*float: left;*/
+	margin-left: 5%;
+	position: relative;
+}
+
+.bar-links{
+	text-decoration: none;
+	font-size: 150%;
+	color: white;
+	/*font-style: italic;*/ 
+	font-style: italic;
+	margin-right: 2%;
+}
+
+.bar-links:hover{
+	animation: bar-links;
+	animation-duration: 0.5s;
+}
+
+.bar{
+	margin-bottom: 2%;
+	position: relative;
+	width: 100%
+}
+
+.container31 {
+  display: grid;
+  grid-template-columns: 3fr 1fr; /* fraction*/
+}
+.src-inp {
+	border-radius: 10%;
+	padding-left: 2em;
+	height: 70%;
+	width: 45%;
+	background-image: url(res/search.png);
+	background-repeat: no-repeat;
+	background-position: 0.5em 0.5em;
+	margin-right: 7%;
+	}
